@@ -1,14 +1,20 @@
 
 /*start main rules*/
+*{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
 body{
-		margin:0px;
+	margin:0px;
 	padding:0px;
+	
 }
 
 
 
 .container{
-	width:1160px;
+	width:1200px;
 	margin:auto;
 	
 }
@@ -17,6 +23,44 @@ body{
 	clear:both;
 }
 
+
+ul{
+	list-style:none;
+}
+
 /*end main rules*/
 
 
+/*start navegaiton bar*/
+
+.navbar {
+	overflow:hidden;
+}
+
+.navbar .brandName{
+	float:left;
+	width:40%;
+}
+
+.navbar .brandName h2{
+	text-transform:uppercase;
+}
+
+.navbar .links{
+	float:left;
+	width:60%;
+}
+
+.navbar .links ul li{
+	display:inline-block;
+	padding:10px 15px;
+}
+
+.navbar .links ul li.active,
+.navbar .links ul li:hover {
+	color:#1abc9c;
+	border-bottom:2px solid #1abc9c;
+	cursor:pointer;
+}
+
+/*end navegaiton bar*/
