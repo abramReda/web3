@@ -35,6 +35,7 @@ ul{
 
 .navbar {
 	overflow:hidden;
+	font-size:20px;
 }
 
 .navbar .brandName{
@@ -49,12 +50,14 @@ ul{
 .navbar .links{
 	float:left;
 	width:60%;
+	
 }
 
 .navbar .links ul li{
 	display:inline-block;
 	padding:10px 0px 2px;
 	margin:0px 15px;
+	font-weight:bold;
 }
 
 .navbar .links ul li.active,
