@@ -1,0 +1,22 @@
+
+/*start main rules*/
+body{
+		margin:0px;
+	padding:0px;
+}
+
+
+
+.container{
+	width:1160px;
+	margin:auto;
+	
+}
+
+.clearall {
+	clear:both;
+}
+
+/*end main rules*/
+
+
