@@ -38,6 +38,8 @@ ul{
 	font-size:20px;
 	height:0;
 	color:#fff;
+	position:relative;
+	Z-index:2;
 	
 }
 
@@ -78,9 +80,21 @@ ul{
 
 .header {
 	background: url("../images/header.jpg");
-	height:600px; /*just for debugging*/
+	position:relative;/*for over layer transparence */
 }
 
+.overLayer{
+	background-color: rgba(0,0,0,0.35);
+	position:absolute;
+	Z-index:1;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	width:100%;
+	height:100%;
+	color :#fff;
+}
 
 
 
