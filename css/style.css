@@ -19,7 +19,7 @@ body{
 	
 }
 
-.clearall {
+.clearFix {
 	clear:both;
 }
 
@@ -34,8 +34,11 @@ ul{
 /*start navegaiton bar*/
 
 .navbar {
-	overflow:hidden;
+	/*overflow:hidden;*/
 	font-size:20px;
+	height:0;
+	color:#fff;
+	
 }
 
 .navbar .brandName{
@@ -68,3 +71,37 @@ ul{
 }
 
 /*end navegaiton bar*/
+
+
+
+/*start header*/
+
+.header {
+	background: url("../images/header.jpg");
+	height:600px; /*just for debugging*/
+}
+
+
+
+
+/*end of header*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
