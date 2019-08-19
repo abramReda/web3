@@ -96,8 +96,38 @@ ul{
 	color :#fff;
 }
 
+/*start slider*/
+.header .bx-wrapper {
+	box-shadow:none;
+	border:0;
+	background:none;
+	height:100%;
+}
+
+.header .bx-wrapper .bx-viewport{
+	height:100% !important;
+}
 
 
+.header .bx-wrapper .bx-viewport div{
+	
+	height:150px;
+	text-align:center;
+	
+}
+.header div h2{
+	font-size:60px;
+	margin-bottom:0;
+}
+.header div h2 span{
+	color:#e65464;
+}
+
+.header div p{
+	margin:0;
+	font-size:25px;
+} 
+/*end slider*/
 /*end of header*/
 
 
