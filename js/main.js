@@ -13,4 +13,10 @@ $(function(){
 	});
 	
 	
+	//add active class to the link which is clicked
+	
+	$('.links li').click(function(){
+		$(this).addClass("active").siblings().removeClass("active");
+	});
+	
 });
