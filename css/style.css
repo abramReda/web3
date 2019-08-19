@@ -45,7 +45,8 @@ ul{
 
 .navbar .brandName{
 	float:left;
-	width:40%;
+	width:50%;
+	padding-left:10%;
 }
 
 .navbar .brandName h2{
@@ -54,13 +55,12 @@ ul{
 
 .navbar .links{
 	float:left;
-	width:60%;
-	
+	width:50%;
 }
 
 .navbar .links ul li{
 	display:inline-block;
-	padding:10px 0px 2px;
+	padding:13px 0px 2px;
 	margin:0px 15px;
 	font-weight:bold;
 }
