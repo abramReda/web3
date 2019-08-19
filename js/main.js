@@ -6,10 +6,11 @@ $(function(){
 	
 	
 	//Adjust header hieght
-	$(".header").height($(window).height());
+	var myHeader =$(".header"); //cashing header class
+	myHeader.height($(window).height());
 	
 	$(window).resize(function(){
-		$(".header").height($(window).height());
+		myHeader.height($(window).height());
 	});
 	
 	
