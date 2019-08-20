@@ -17,11 +17,24 @@ $(function(){
 	});
 	
 	
-	//add active class to the link which is clicked
 	
-	$('.links li').click(function(){
-		$(this).addClass("active").siblings().removeClass("active");
+	
+	
+	$('.links li a').click(function(){	
+
+        //add active class to the link which is clicked	.
+		$(this).parent().addClass("active").siblings().removeClass("active");
+		
+		//add themooth scrolling when i click the the link
+		$('html, body').animate({
+			scrollTop: $('#'+$(this).data('value')).offset().top   // change this to  scrollTop: $('#'+$(this).data('value')).offset().top
+		}, 1000);
+		console.log("linke is click we will go to"+$(this).data('value'));
 	});
+	
+	
+	
+	
 	
 	
 	//make slider div in center of ccreen
@@ -34,5 +47,8 @@ $(function(){
 	mySlider.bxSlider({
 		pager:false
 	});
+	
+	
+	
 	
 });

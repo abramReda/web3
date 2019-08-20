@@ -65,11 +65,22 @@ ul{
 	font-weight:bold;
 }
 
+.navbar .links ul li a{
+	color:#fff;
+	text-decoration:none;
+}
+
 .navbar .links ul li.active,
 .navbar .links ul li:hover {
 	color:#1abc9c;
 	border-bottom:2px solid #1abc9c;
-	cursor:pointer;
+	
+}
+
+.navbar .links ul li.active a,
+.navbar .links ul li a:hover {
+	color:#1abc9c;
+	
 }
 
 /*end navegaiton bar*/
@@ -129,6 +140,22 @@ ul{
 } 
 /*end slider*/
 /*end of header*/
+
+
+
+/*start of services*/
+
+.services{
+	height:2000px;
+	
+}
+
+.services h2{
+	padding:0;
+	margin:0;
+}
+
+/*end of services*/
 
 
 
