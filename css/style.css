@@ -19,10 +19,6 @@ body{
 	
 }
 
-.clearFix {
-	clear:both;
-}
-
 
 ul{
 	list-style:none;
@@ -148,11 +144,41 @@ ul{
 .services{
 	height:2000px;
 	
+	
 }
 
 .services h2{
-	padding:0;
-	margin:0;
+	padding:50px 0 0;
+	margin:0 0 50px 20px; 
+	font-weight:normal;
+}
+
+.services .item{
+	float:left;
+	width:33.33333%;
+	margin: 0 0 20px 0;
+	padding:5px;
+}
+
+.services .item i{
+	color:#1abc9c;
+	float:left;
+	width:19%;
+	margin:20px 3%;
+}
+
+.services .item .info{
+	float:left;
+	width:75%;
+}
+
+.services .item .info h3{
+	font-weight:normal;
+	color:#483828;
+}
+
+.services .item .info p{
+	color:#333;
 }
 
 /*end of services*/
@@ -165,14 +191,30 @@ ul{
 
 
 
+/****************************************************************        start My framework        *************************************************************************/
 
 
 
 
+.clearFix{
+	clear:both;
+}
 
 
+.spachial-heading{
+	position:relative;
+}
 
+.spachial-heading:after{
+	content: "";
+    position: absolute;
+    top: 85px;
+    left: 0;
+    border-bottom: 2px solid #222;
+    width: 35px;
+    display: block;
+}
 
-
+/****************************************************************        end My framework        *************************************************************************/
 
 
